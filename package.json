@@ -1,0 +1,29 @@
+{
+  "name": "in.orbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/http/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghalbavieira/in.orbit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghalbavieira/in.orbit/issues"
+  },
+  "homepage": "https://github.com/Ghalbavieira/in.orbit#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.0",
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}
